@@ -11,3 +11,7 @@
 .body-color {
     background-color:  rgb(205, 171, 238);
 }
+
+.row-size {
+    height: 400px;
+}
