@@ -1,0 +1,51 @@
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+.menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    transition: 0.5s;
+    transform: translateX(100%);
+}
+.menu-active {
+    transform: translateX(0%);
+}
+.menu-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+/* .menu-btn {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -35px;
+    bottom: 10px;
+} */
+.icon {
+    color: blanchedalmond;
+}
+.icon:active {
+    color: whitesmoke;
+}
+.icon[tabindex]:focus {
+    color: gray;
+    outline: none;
+}
