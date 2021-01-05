@@ -5,22 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="tstyle.css">
 </head>
 <body>
   <div class="wrapper-l">
-    <div class="container pipl-l">
-      pipl
-    </div>
-    <div class="container position-absolute top-50 start-50 translate-middle w-75 ">
-      <form>
+    <div class="text-blur">pipl</div>
+    <div class="container form-container">
+      <form class="position-relative" action="">
         <div class="mb-3">
           <input type="email" class="form-control rounded-pill fs-4 login-form" id="exampleInputEmail1" placeholder="your pipname">
         </div>
         <div class="mb-3">
           <input type="password" class="form-control rounded-pill fs-4 login-form" id="exampleInputPassword1" placeholder="your password">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="container btn-group rounded-pill group-login">
+          <a href="#" class="btn btn-primary active rounded-end rounded-pill fs-1 btn-login" aria-current="page">
+            <span>
+              pipin
+            </span>
+          </a>
+          <a href="#" class="position-relative btn btn-primary active rounded-start rounded-pill btn-login" style="padding: 0%;">
+            <span class="plus">
+              <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+              </svg>
+            </span>
+          </a>
+        </div>
       </form>
     </div>
   </div>

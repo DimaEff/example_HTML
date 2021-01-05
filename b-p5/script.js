@@ -17,3 +17,7 @@ $('.icon').on('click', function() {
     }
     
 })
+
+$('.login-form').on('click', function() {
+    $(this).toggleClass('login-form-active');
+})

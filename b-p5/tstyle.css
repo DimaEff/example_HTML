@@ -62,23 +62,68 @@ section {
 ::-webkit-input-placeholder {
     text-align: center;
  }
- .login-form {
-    text-align: center;
-    border: 6px solid rgba(255, 255, 255, 0.15);
-}
+
+body { margin: 0; height: 100vh; }
 .wrapper-l {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('../pipl.jpg');
-    background-size: auto 100%;
-  }
-.pipl-l {
+    position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 0%;
-    font-size: 25vh;
-    backdrop-filter: blur(4px);
+    align-items: center;
+    height: 100%;
+    font: bold 25vh sans-serif;
+    font-family: 'Comfortaa', cursive;
+    resize: both; overflow: hidden; /* Для интерактивного изменения размера. Необязательно */
+    background-image: url('../pipl.jpg');
+    background-size: auto 100%;
+}
+.form-container {
+    position: absolute;
+    height: 20vh;
+    width: 85%;
+}
+.login-form {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.login-form:active, .login-form:focus, a {
+    outline: none!important;
+    outline-color: none!important;
+    outline-width: none!important;
+    outline-style: none!important;
+    box-shadow: none!important;
+}
+.login-form::-moz-focus-inner, a {
+    border: none !important;
+}
+.text-blur {
+    position: absolute;
+    top: 0; left: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%; width: 100%;
+    margin-top: 5vh;
+    background: transparent;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.17);
+    -webkit-background-clip: text;
+    filter: blur(1.5px); /* Размытие текста */
+}
+form {
+    position: relative;
+}
+.group-login {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+.btn-login {
+    /* background-color:  rgba(255, 255, 255, 0.17); */
+    border-color: transparent;
+    -webkit-text-fill-color: gray;
+    /* backdrop-filter: blur(1.5px); */
+    text-align: center;
+}
+.plus {
+    display: flex;
+    margin-top: 10%;
+    color: gray;
 }

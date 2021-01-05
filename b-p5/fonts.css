@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'ComfortaaBold';
+    src: url('fonts/Comfortaa/ComfortaaBold.eot');
+    src: url('fonts/Comfortaa/ComfortaaBold.eot') format('embedded-opentype'),
+         url('fonts/Comfortaa/ComfortaaBold.woff2') format('woff2'),
+         url('fonts/Comfortaa/ComfortaaBold.woff') format('woff'),
+         url('fonts/Comfortaa/ComfortaaBold.ttf') format('truetype'),
+         url('fonts/Comfortaa/ComfortaaBold.svg#ComfortaaBold') format('svg');
+}
+
+@font-face {
+    font-family: 'ComfortaaLight';
+    src: url('fonts/Comfortaa/ComfortaaLight.eot');
+    src: url('fonts/Comfortaa/ComfortaaLight.eot') format('embedded-opentype'),
+         url('fonts/Comfortaa/ComfortaaLight.woff2') format('woff2'),
+         url('fonts/Comfortaa/ComfortaaLight.woff') format('woff'),
+         url('fonts/Comfortaa/ComfortaaLight.ttf') format('truetype'),
+         url('fonts/Comfortaa/ComfortaaLight.svg#ComfortaaLight') format('svg');
+}
+
+@font-face {
+    font-family: 'ComfortaaRegular';
+    src: url('fonts/Comfortaa/ComfortaaRegular.eot');
+    src: url('fonts/Comfortaa/ComfortaaRegular.eot') format('embedded-opentype'),
+         url('fonts/Comfortaa/ComfortaaRegular.woff2') format('woff2'),
+         url('fonts/Comfortaa/ComfortaaRegular.woff') format('woff'),
+         url('fonts/Comfortaa/ComfortaaRegular.ttf') format('truetype'),
+         url('fonts/Comfortaa/ComfortaaRegular.svg#ComfortaaRegular') format('svg');
+}
